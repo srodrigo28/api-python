@@ -38,6 +38,11 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
    python -m venv venv
    ```
 
+## Ativar no widows 11 PowerShell.
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
 4. Ative o ambiente virtual:
    - **Windows:**
      ```bash
